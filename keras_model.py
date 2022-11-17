@@ -20,7 +20,3 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
             
-# After the loop release the cap object
-cap.release()
-# Destroy all the windows
-cv2.destroyAllWindows()

@@ -2,6 +2,7 @@ import random
 options = ['rock', 'paper', 'scissors']
 
 def get_computer_choice():
+    options = ['rock', 'paper', 'scissors']
     computer_choice = random.choice(options)
     return computer_choice
 
